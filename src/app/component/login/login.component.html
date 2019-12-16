@@ -1,0 +1,22 @@
+<div>
+    <label> Iniciar sesión</label>
+</div>
+<div>
+    <div>
+        <label>Usuario</label>
+    </div>
+    <div>
+        <input type="text" [(ngModel)]="user.username">
+    </div>
+</div>
+<div>
+    <div>
+        <label>Password</label>
+    </div>
+    <div>
+        <input type="password" [(ngModel)]="user.password">
+    </div>
+</div>
+<div>
+    <input type="button" value="Aceptar" (click)="login()">
+</div>

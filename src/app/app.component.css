@@ -24,8 +24,8 @@
 .grid-container {
     display: grid;
     grid-template-areas: 'header header header header header header' 'menu main main main main right' 'footer footer footer footer footer footer';
-    grid-gap: 5px;
     /*matgen entr elementos*/
+    grid-gap: 5px;
     color: #fff;
     padding: 10px;
 }
